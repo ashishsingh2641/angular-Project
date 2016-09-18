@@ -1,0 +1,36 @@
+{
+  "name": "angular-Project",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A tutorial application for AngularJS",
+  "repository": "https://github.com/ashishsingh2641/angular-Project.git",
+  "license": "free",
+  "devDependencies": {
+    "bower": "",
+    "http-server": "^0.9.0",
+    "jasmine-core": "",
+    "karma": "",
+    "karma-chrome-launcher": "",
+    "karma-firefox-launcher": "",
+    "karma-jasmine": "",
+    "protractor": ""
+  },
+  "scripts": {
+    "postinstall": "",
+
+    "prestart": "npm install",
+    "start": "http-server ./app -a localhost -p 8000 -c-1",
+
+    "pretest": "npm install",
+    "test": "",
+    "test-single-run": "",
+
+    "preupdate-webdriver": "npm install",
+    "update-webdriver": "",
+
+    "preprotractor": "npm run update-webdriver",
+    "protractor": "",
+
+    "update-index-async": "node -e \"var fs=require('fs'),indexFile='app/index-async.html',loaderFile='app/bower_components/angular-loader/angular-loader.min.js',loaderText=fs.readFileSync(loaderFile,'utf-8').split(/sourceMappingURL=angular-loader.min.js.map/).join('sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map'),indexText=fs.readFileSync(indexFile,'utf-8').split(/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/).join('//@@NG_LOADER_START@@\\n'+loaderText+'    //@@NG_LOADER_END@@');fs.writeFileSync(indexFile,indexText);\""
+  }
+}
