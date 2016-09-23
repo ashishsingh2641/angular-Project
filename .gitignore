@@ -1,8 +1,0 @@
-logs/*
-!.gitkeep
-node_modules/
-tmp
-.idea
-.DS_Store
-angular-Project-snapshots
-angular_components/
