@@ -1,0 +1,36 @@
+.PhoneList {
+  margin-bottom: 6%; }
+  .PhoneList .card {
+    height: 27em;
+    margin: 2% auto; }
+  .PhoneList .PhoneBrandTitle {
+    margin: 5% auto; }
+  .PhoneList .ImageIcon img {
+    max-height: 12.500em !important;
+    width: auto;
+    cursor: pointer; }
+  .PhoneList .card-block {
+    padding: 7px 0.9rem; }
+  .PhoneList .card-text p {
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+  .PhoneList #Comparecheck {
+    margin-bottom: 0.5rem !important;
+    border-bottom: 2px solid #ccc !important; }
+  .PhoneList .ButtonMargin .fa-thumbs-up {
+    cursor: pointer;
+    font-size: 31px;
+    color: grey;
+    transition: color 1s ease-in-out; }
+    .PhoneList .ButtonMargin .fa-thumbs-up:hover {
+      color: #025aa5; }
+  .PhoneList .ButtonMargin .smallText {
+    font-size: small;
+    font-family: 'Open Sans'; }
+  .PhoneList .ButtonMargin .fa-heart-o {
+    cursor: pointer;
+    font-size: 31px;
+    color: grey;
+    transition: color 1s ease-in-out; }
+    .PhoneList .ButtonMargin .fa-heart-o:hover {
+      color: red; }

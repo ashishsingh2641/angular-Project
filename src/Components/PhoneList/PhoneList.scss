@@ -1,0 +1,54 @@
+.PhoneList {
+	    margin-bottom: 6%;
+	.card {
+		height: 27em;
+		margin: 2% auto;
+	}
+	.PhoneBrandTitle {
+		margin: 5% auto; 
+	}
+	.ImageIcon {
+		img {
+			max-height: 12.500em !important;
+			width: auto;
+			cursor: pointer;
+		}
+	}
+	.card-block {
+		padding: 7px 0.9rem;
+	}
+	.card-text {
+		p {
+			margin-top: 0;
+    		margin-bottom: 0.5rem;
+		}
+	}
+	#Comparecheck {
+			margin-bottom: 0.5rem !important;
+			border-bottom: 2px solid #ccc !important; 
+		}
+	.ButtonMargin {
+		.fa-thumbs-up {
+			cursor: pointer;
+			font-size: 31px;
+			color: grey;
+			transition: color 1s ease-in-out;
+			&:hover {
+				color: #025aa5;
+			}
+		}
+		.smallText {
+			font-size: small;
+			font-family: 'Open Sans';
+		}
+		.fa-heart-o {
+			cursor: pointer;
+			font-size: 31px;
+			color: grey;
+			transition: color 1s ease-in-out;
+			&:hover {
+				color: red;
+			}
+		}
+	}	
+}

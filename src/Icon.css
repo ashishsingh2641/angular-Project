@@ -1,0 +1,30 @@
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }

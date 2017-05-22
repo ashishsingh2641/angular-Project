@@ -1,0 +1,33 @@
+@import "./_variable.scss";
+@import 'Icon.scss';
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "Components/Banner/Banner.scss";
+@import "Components/CatalogDetails/CatalogDetailsHoTlinks.scss";
+@import "Components/PhoneList/PhoneList.scss";
+@import "Components/stickyHeader/stickyHeader.scss";
+@import "Components/FooterComponent/FooterComponent.scss";
+@import "Components/ButtonComponent/ButtonComponent.scss";
+@import "Components/TextAndImageComponent/textandimage.scss";
+@import "Components/TileBanner/TileBanner.scss";
+@import "Components/Label/label.scss";
+@import "Components/FormInputComponent/FormInputComponent.scss";
+@import "Components/PhoneSelectComponent/PhoneSelectComponent.scss";
+@import "Components/FormComponent/FormComponent.scss";
+@import "Components/FilterComponent/FilterComponent.scss";
+@import "Components/ToutComponent/ToutComponent.scss";
+@import "Components/OverLayWithImage/OverLayImage.scss";
+@import "Components/FilterComponentMobile/FilterComponentMobile.scss";
+
+ul li {
+	list-style-type:none;
+}
+a {
+	font-family: $MusoHeavy;
+    color:#0275d8;
+}
+ul  {
+	padding:0;
+	li {
+		font-family: $Museolight;
+	}
+}

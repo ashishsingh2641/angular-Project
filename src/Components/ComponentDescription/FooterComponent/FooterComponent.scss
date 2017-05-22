@@ -1,0 +1,19 @@
+.footerComponent {
+	font-family: 'Roboto Slab', serif;
+	margin-top: 5%;
+	background: rgba(60, 52, 52,.8);
+	.footerMenu1 {
+		margin-top:5%;
+		list-style-type: none;
+		color: white;
+		line-height: 1.7;
+		li {
+			text-decoration: none;
+			margin-botton: 2px;
+			&:hover {
+				cursor: pointer;
+				text-decoration: underline;
+			}
+		}
+	}
+}

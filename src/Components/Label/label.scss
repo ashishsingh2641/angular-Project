@@ -1,0 +1,11 @@
+@import '../../_variable.scss';
+
+.labelComponent {
+	label {
+		width: auto;
+	  	height: 1.188em;
+	  	font-family: $font1;
+	  	font-size: 0.875em;
+	  	color: $black-two;
+	}
+}

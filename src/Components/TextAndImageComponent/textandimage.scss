@@ -1,0 +1,77 @@
+@import '../../_variable.scss';
+@import '../../Icon.scss';
+
+.textandImageComponentleft {
+	background: #AF242F;
+	color: white;
+	margin:5px auto;
+	.imageThumbnail1 a img{
+		height: 25em;
+	}
+	.imageDescription {
+		margin: 10% auto;
+    	width: 82%;
+    	h1 {
+    		color:white;
+    		font-weight: normal;
+    		font-family: $MusoHeavy;
+    	}
+    	p {
+    		font-family: $JoeyMedium;
+    		margin-top: 3%;
+    	}
+    	a {
+    		color: white;
+    		font-weight: bold;
+    		font-size: 20px;
+			font-family: $JoeyMedium;
+			transition: all ease-in-out 1s;
+			&:hover {
+				cursor: pointer;
+				color: #00BCD4;
+				text-decoration: none;
+			}
+    	}
+	}
+}
+.rightImage {
+	height: auto;
+	.imageDescription {
+		width: 79%;
+    	margin: 9% auto;
+		h1 {
+			font-family: $MusoHeavy;
+			color:white;
+		}
+		p {
+			margin-top: 2%;
+			color:white;
+			font-family: 'Open Sans';
+		}
+		a {
+    		color: white;
+    		font-weight: bold;
+    		font-size: 20px;
+			font-family: $JoeyMedium;
+			transition: all ease-in-out 1s;
+			&:hover {
+				color: $Black;
+				cursor: pointer;
+				text-decoration: none;
+			}
+    	}
+	}
+}
+.no-padding {
+	padding:0;
+}
+
+
+@-webkit-keyframes mover {
+    0% { transform: translateY(0) }
+    100% { transform: translateY(-15px) }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-15px); }
+}

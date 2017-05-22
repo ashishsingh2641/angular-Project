@@ -1,0 +1,93 @@
+@import '../../_variable.scss';
+@import '../../Icon.scss';
+
+.cartPage {	
+margin: 3% auto;
+padding: 0;
+
+.noPadding {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+	.error {
+	color: red;
+}
+.step {
+	svg {
+		fill: #01549b !important;
+		width: 45px !important;
+		height: 45px !important;
+	}
+}
+.hidden {
+	display: none !important;
+}
+.Displayblock {
+	width:100%;
+	display:table;
+}
+.formInputComponent .BasicFrom{
+	height: 5em;
+}
+.divider {
+	height: 3px !important;
+}
+.primaryButton {
+	width: 100%;
+	button {
+		background: #01549b !important;
+		margin:5%;
+	}
+}
+.FinalSummarycart {
+	.ImageCard {
+		border-radius: 50%;
+	}
+}
+.TextFieldComponent {
+	width:100% !important;
+}
+.datePicker {
+	input {
+		width:100% !important;
+		cursor: pointer !important;
+	}
+}
+	.redirectionPage {
+		position:relative;
+	.checkIcon {
+			font-family: $font_0;
+			font-style: normal;
+	    	color: $darkish-green;
+	    	font-size: 45px;
+		}
+		span {
+			position: absolute;
+    		top: 24%;
+			}
+		}
+		.spinnerTag {
+			svg {
+				circle {
+					stroke: #01549b !important;
+				}
+			}
+		}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  		.step div div {
+  			display: block !important;
+  			width: auto !important;
+  		}
+	.noPadding {
+		padding: 0;
+	}
+	.primaryButton {
+		button {
+			width: 100%;
+		}
+	}
+}

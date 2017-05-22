@@ -1,0 +1,128 @@
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.meterial-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal !important;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; }
+
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.FilterComponent .filterText .filter {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.38;
+  color: #262626;
+  margin-bottom: 1%; }
+
+.FilterComponent .clearAll {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  color: #43a047;
+  font-weight: 600; }
+
+.FilterComponent .customCheckbox {
+  margin: 3% 0;
+  position: relative; }
+  .FilterComponent .customCheckbox input {
+    opacity: 0;
+    z-index: -9999; }
+  .FilterComponent .customCheckbox label {
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: solid 1px #999999;
+    position: absolute;
+    margin-bottom: 0px;
+    bottom: 2px;
+    left: 5%;
+    cursor: pointer; }
+  .FilterComponent .customCheckbox span {
+    margin-left: 5%;
+    color: #505050;
+    font-family: 'Open Sans';
+    font-size: 14px; }
+  .FilterComponent .customCheckbox .checkmark {
+    display: inline-block;
+    position: absolute;
+    left: 14px;
+    top: 7px; }
+    .FilterComponent .customCheckbox .checkmark:after {
+      /*Add another block-level blank space*/
+      content: '';
+      display: block;
+      /*Make it a small rectangle so the border will create an L-shape*/
+      width: 6px;
+      height: 10px;
+      /*Add a white border on the bottom and left, creating that 'L' */
+      border: solid #000;
+      border-width: 0 2px 2px 0;
+      /*Rotate the L 45 degrees to turn it into a checkmark*/
+      transform: rotate(45deg); }

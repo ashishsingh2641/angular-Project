@@ -1,0 +1,14 @@
+.CounterComponent {
+	display: inline-flex;
+	.InputComponent {
+		width: 26px;
+    	text-align: center;
+    	border: 1px solid grey;
+    	p {
+    		margin-bottom: 0px;
+    	}
+	}
+	.btn {
+		border-radius: 5px !important;
+	}
+}

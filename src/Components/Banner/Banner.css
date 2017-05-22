@@ -1,0 +1,181 @@
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.meterial-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal !important;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; }
+
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.Banner {
+  margin: 2% 0 5px 0; }
+  .Banner .BanneImage {
+    min-height: 420px;
+    background-repeat: no-repeat !important;
+    height: auto; }
+    .Banner .BanneImage .ImageClass {
+      height: 23em; }
+    .Banner .BanneImage .bannerComponetText {
+      width: 80%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin: 5% auto;
+      color: white; }
+      .Banner .BanneImage .bannerComponetText .heading {
+        font-family: "MuseoSansRounded-Heavy";
+        font-size: 20px;
+        pagging: 0; }
+      .Banner .BanneImage .bannerComponetText .subheading {
+        margin-top: 1%;
+        font-size: 45px;
+        font-family: "MuseoSansRounded-Heavy";
+        font-weight: bold;
+        cursor: pointer; }
+    .Banner .BanneImage .setButtonPosition {
+      background: #B9C2CE;
+      color: black;
+      font-weight: bold;
+      border-radius: 5px;
+      float: left;
+      box-shadow: 1px 1px 1px 1px black;
+      margin: 2% auto;
+      border: 1px solid #B9C2CE;
+      border-width: 2px;
+      width: 40%;
+      cursor: pointer;
+      transition: all 1s ease-in-out; }
+      .Banner .BanneImage .setButtonPosition:hover {
+        transform: scale(0.7); }
+  .Banner .BannerText .internetAddon {
+    margin-left: 33px; }
+  .Banner .BannerText .BannerList ol {
+    list-style-type: none;
+    margin-bottom: 0; }
+    .Banner .BannerText .BannerList ol li {
+      list-style-type: circle !important; }
+
+@media only screen and (max-width: 320px) {
+  .Banner {
+    margin-top: 1%; }
+  .BanneImage {
+    background-size: cover !important;
+    background-position: center center !important; }
+  .subheading {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 28px !important;
+    font-weight: normal;
+    cursor: pointer; }
+  .setButtonPosition {
+    width: 80% !important;
+    transform: scale(0.7); }
+  .bannerComponetText {
+    width: 100% !important;
+    margin: auto auto; }
+  .BannerText .internetAddon {
+    margin-left: 0; }
+  .BannerText .BannerList {
+    list-style-type: none; }
+  .BannerText .BannerList ol {
+    list-style-type: none;
+    margin-bottom: 0; }
+  .BannerText .BannerList ol li {
+    list-style-type: circle !important; } }
+
+@media only screen and (max-width: 467px) {
+  .Banner {
+    margin-top: 1%;
+    background-size: cover !important;
+    background-position: center center !important; }
+  .bannerComponetText {
+    width: 100% !important;
+    margin: 0 auto; }
+  .subheading {
+    text-align: center;
+    margin-top: 1%;
+    font-size: 28px !important;
+    font-weight: normal;
+    cursor: pointer; }
+  .setButtonPosition {
+    float: none;
+    text-align: center;
+    width: 100% !important;
+    transform: scale(0.7); }
+  .BannerText li {
+    list-style-type: none !important; }
+  .BannerText .internetAddon {
+    margin-left: 0; }
+  .BannerText .BannerList {
+    list-style-type: none; }
+  .BannerText .BannerList ol {
+    list-style-type: none;
+    margin-bottom: 0; }
+  .BannerText .BannerList ol li {
+    list-style-type: circle !important; } }

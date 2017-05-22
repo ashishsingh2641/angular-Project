@@ -1,0 +1,95 @@
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.meterial-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal !important;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; }
+
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.formInputComponent input {
+  font-family: 'Open Sans';
+  height: 40px;
+  border-radius: 4px;
+  border: solid 1px #bfbfbf;
+  margin-bottom: 10px; }
+
+.formInputComponent .FormInputComponentwithSearch {
+  position: relative; }
+  .formInputComponent .FormInputComponentwithSearch input {
+    padding-left: 4%; }
+  .formInputComponent .FormInputComponentwithSearch i {
+    font-family: Material Icons;
+    position: absolute;
+    font-style: normal;
+    top: 0;
+    color: #505050;
+    left: 2.5%;
+    font-size: 25px; }

@@ -1,0 +1,124 @@
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.meterial-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal !important;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; }
+
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.phoneColor_picker {
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 3%; }
+  .phoneColor_picker .colorPicker {
+    border-radius: 50%;
+    margin-right: 2%;
+    width: 2.8125em;
+    height: 2.8125em;
+    cursor: pointer; }
+  .phoneColor_picker img {
+    border: 4px solid transparent; }
+  .phoneColor_picker .pushSelector {
+    text-align: center;
+    position: relative;
+    margin-right: 2%;
+    border: 3px solid #e5e5e5;
+    border-radius: 50%; }
+    .phoneColor_picker .pushSelector img {
+      border: 2px solid transparent;
+      border-radius: 50%; }
+  .phoneColor_picker .colorSelector {
+    position: absolute;
+    font-size: 1.5em;
+    display: block;
+    font-family: Material Icons;
+    font-style: normal;
+    font-weight: 600;
+    text-shadow: 1px 1px 1px white;
+    left: 19%;
+    top: 10%; }
+  .phoneColor_picker .capacity {
+    margin-top: 3%;
+    padding-top: 1%;
+    cursor: pointer;
+    text-align: center;
+    width: 4.6875em;
+    height: 2.5em;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.38;
+    text-align: center;
+    color: #262626; }
+  .phoneColor_picker .active {
+    border-radius: 5px;
+    background-color: rgba(216, 216, 216, 0.25);
+    border: solid 1px #bfbfbf; }

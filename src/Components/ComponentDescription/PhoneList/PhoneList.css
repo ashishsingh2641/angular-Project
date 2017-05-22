@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.meterial-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal !important;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; }
+
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.PhoneList {
+  margin-bottom: 6%; }
+  .PhoneList .card {
+    height: 27em;
+    margin: 2% auto; }
+  .PhoneList .PhoneBrandTitle {
+    margin: 5% auto; }
+  .PhoneList .ImageIcon img {
+    max-height: 12.500em !important;
+    width: auto;
+    cursor: pointer; }
+  .PhoneList .card-block {
+    padding: 7px 0.9rem; }
+  .PhoneList .card-text p {
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+  .PhoneList #Comparecheck {
+    margin-bottom: 0.5rem !important;
+    border-bottom: 2px solid #ccc !important; }
+  .PhoneList .ButtonMargin .fa-thumbs-up {
+    cursor: pointer;
+    font-size: 31px;
+    color: grey;
+    transition: color 1s ease-in-out; }
+    .PhoneList .ButtonMargin .fa-thumbs-up:hover {
+      color: #025aa5; }
+  .PhoneList .ButtonMargin .smallText {
+    font-size: small;
+    font-family: 'Open Sans'; }
+  .PhoneList .ButtonMargin .fa-heart-o {
+    cursor: pointer;
+    font-size: 31px;
+    color: grey;
+    transition: color 1s ease-in-out; }
+    .PhoneList .ButtonMargin .fa-heart-o:hover {
+      color: red; }

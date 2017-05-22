@@ -1,0 +1,170 @@
+@import '../../../_variable.scss';
+@import '../../../Icon.scss';
+
+$white: white;
+$information-phone: "only screen and (max-width : 320px)";
+$information-phone1: "only screen and (max-width : 467px)";
+.Banner {
+    margin: 2% 0 5px 0;
+    font-family: 'Open sans', sans-serif;
+    .BanneImage {
+        background: rgba(15, 23, 46, 0.62);
+        min-height: 420px;
+        height: auto;
+        .ImageClass {
+            opacity:.9;
+            transform: scale(1.1);
+            margin-top: 6%;
+        }
+        .mapLocator {
+            position: relative;
+            .first {
+                position: absolute;
+                top: 21%;
+                left: 14%;
+                font-size: 20px;
+                color: #ED1A3D;
+                cursor:pointer;
+                &:hover{
+                -webkit-animation: mover 1s infinite  alternate;
+                animation: mover 1s infinite  alternate;
+                }
+            }
+            .second {
+                position: absolute;
+                top: 45%;
+                left: 70.5%;
+                font-size: 28px;
+                color: #ED1A3D;
+                cursor:pointer;
+                -webkit-animation: mover 1s infinite  alternate;
+                animation: mover 1s infinite  alternate;
+            }
+            .third {
+                position: absolute;
+                top: 59%;
+                left: 80.5%;
+                font-size: 20px;
+                color: #ED1A3D;
+                cursor:pointer;
+                &:hover{
+                -webkit-animation: mover 1s infinite  alternate;
+                animation: mover 1s infinite  alternate;
+                }   
+            }
+            .four {
+                position: absolute;
+                top: 30%;
+                left: 70.5%;
+                font-size: 20px;
+                color: #ED1A3D;
+                cursor:pointer;
+                &:hover{
+                -webkit-animation: mover 1s infinite  alternate;
+                animation: mover 1s infinite  alternate;
+                }   
+            }
+            .five {
+                position: absolute;
+                top: 38%;
+                left: 58%;
+                font-size: 20px;
+                color: #ED1A3D;
+                cursor:pointer;
+                &:hover{
+                -webkit-animation: mover 1s infinite  alternate;
+                animation: mover 1s infinite  alternate;
+                }   
+            }
+            .six {
+                position: absolute;
+                top: 80%;
+                left: 85.5%;
+                font-size: 20px;
+                color: #ED1A3D;
+                cursor:pointer;
+                &:hover{
+                -webkit-animation: mover 1s 2s  alternate;
+                animation: mover 1s 2s  alternate;
+                }   
+            }
+            .seven {
+                position: absolute;
+                top: 71%;
+                left: 24.5%;
+                font-size: 20px;
+                color: #ED1A3D;
+                cursor:pointer;   
+            }
+        }
+        .bannerComponetText {
+            padding-right:15px;
+            padding-left:15px;
+            margin:3% auto;
+                color: white;
+            .heading {
+                font-family: 'Open sans', sans-serif;
+                font-size: 20px;
+                pagging:0;
+            }
+            .subheading {
+                 margin-top:1%;
+                 font-size: 20px;
+                 font-weight: bold;
+                 cursor: pointer;
+                .fa-card {
+                    font-size: 68px;
+                    transition: all 1s ease-in-out;
+                    &:hover{
+                        transform: scale(1.4);
+                        color: #5DABE6;
+                    }
+                 }           
+            }
+            .setButtonPosition {
+                background: #B9C2CE;
+                color: black;
+                font-weight: bold;
+                border-radius: 5px;
+                box-shadow: 1px 1px 1px 1px black;
+                margin: 2% auto;
+                border: 1px solid #B9C2CE;
+                border-width: 2px;
+                width: 50%;
+                cursor: pointer;
+                transition: all 1s ease-in-out;
+                &:hover {
+                    transform: scale(0.7);
+                }
+            }
+        }
+    }
+}
+
+@media #{$information-phone} {
+            .Banner {margin-top:1%;}
+            .subheading {
+                text-align: center;
+                margin-top: 1%;
+                font-size: 15px !important;
+                font-weight: normal ;
+                cursor: pointer;
+            }
+            .setButtonPosition {
+                width:80% !important;
+            }
+        }
+    @media #{$information-phone1} {
+
+            .Banner {margin-top:1%;}
+            .subheading {
+                text-align: center;
+                margin-top: 1%;
+                font-size: 15px !important;
+                font-weight: normal ;
+                cursor: pointer;
+            }
+            .setButtonPosition {
+                width:80% !important;
+            }
+        }    

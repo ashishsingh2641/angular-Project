@@ -1,0 +1,89 @@
+@import '../../_variable.scss';
+@import '../../Icon.scss';
+
+.footerComponent {
+	font-family: $JoeyLight;
+	margin-top: 5%;
+	background: $black;
+	.siteMap {
+		margin:2% auto;
+		color:white;
+		font-family: $JoeyMedium;
+	}
+	.footerMenu1 {
+		margin-top:3%;
+		padding-left: 0;
+		list-style-type: none;
+		line-height: 1.7;
+		li {
+			color:white;
+			text-decoration: none;
+			h4 {
+				font-family: $MusoHeavy;
+				font-size: 16px;
+			}
+			a {
+				line-height: 2;
+				font-family: $JoeyLight;
+				color: lightsalmon;
+	    		font-weight: bold;
+	    		text-decoration:none;
+	    		text-decoration: none;
+    			font-size: 15px;
+    			&:hover {
+					cursor: pointer;
+					color: $white;
+				}
+			}
+		}
+	}
+	.social-icons {
+			span {
+				font-family: $Museolight;
+				margin-right:10px;
+				color:white;
+			}
+			.facebookIcon {
+				margin: 0 10px;
+				padding: 4px;
+				border: 2px solid lightsalmon;
+				color: lightsalmon;
+				font-weight: bold;
+				transition: all .3s ease;
+				-webkit-transition: all .3s ease; 
+				&:hover {
+					border: 2px solid white;
+					color: white;
+					cursor: pointer;
+				}
+			}
+			.fa-google {
+				margin: 0 10px;
+				padding: 4px;
+				border: 2px solid lightsalmon;
+				color: lightsalmon;
+				font-weight: bold;
+				transition: all .3s ease;
+				-webkit-transition: all .3s ease; 
+				&:hover {
+					border: 2px solid white;
+					color: white;
+					cursor: pointer;
+				}	
+			}
+			.fa-twitter {
+				margin: 0 10px;
+				padding: 4px;
+				border: 2px solid lightsalmon;
+				color: lightsalmon;
+				font-weight: bold;
+				transition: all .3s ease;
+				-webkit-transition: all .3s ease; 
+				&:hover {
+					border: 2px solid white;
+					color: white;
+					cursor: pointer;
+				}	
+			}
+		}
+}

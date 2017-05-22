@@ -1,0 +1,130 @@
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.meterial-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal !important;
+  font-size: 24px;
+  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr; }
+
+@font-face {
+  font-family: Material Icons;
+  font-style: normal;
+  font-weight: 400;
+  src: url(Styles/fonts/MaterialIcons-Regular.eot);
+  src: local("Material Icons"), local("MaterialIcons-Regular"), url(Styles/fonts/MaterialIcons-Regular.woff2) format("woff2"), url(Styles/fonts/MaterialIcons-Regular.woff) format("woff"), url(Styles/fonts/MaterialIcons-Regular.ttf) format("truetype"); }
+
+@font-face {
+  font-family: "MuseoSansRounded-light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/MuseoSansRounded-300.otf); }
+
+@font-face {
+  font-family: "MuseoSansRounded-Heavy";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/MuseoSansRounded-500.otf); }
+
+@font-face {
+  font-family: "joey-Light";
+  font-style: normal;
+  font-weight: 300;
+  src: url(Styles/fonts/Joey-Light.otf); }
+
+@font-face {
+  font-family: "joey-medium";
+  font-style: normal;
+  font-weight: 500;
+  src: url(Styles/fonts/Joey-Medium.otf); }
+
+.cartPage {
+  margin: 3% auto;
+  padding: 0; }
+  .cartPage .noPadding {
+    padding-right: 15px;
+    padding-left: 15px; }
+  .cartPage .error {
+    color: red; }
+  .cartPage .step svg {
+    fill: #01549b !important;
+    width: 45px !important;
+    height: 45px !important; }
+  .cartPage .hidden {
+    display: none !important; }
+  .cartPage .Displayblock {
+    width: 100%;
+    display: table; }
+  .cartPage .formInputComponent .BasicFrom {
+    height: 5em; }
+  .cartPage .divider {
+    height: 3px !important; }
+  .cartPage .primaryButton {
+    width: 100%; }
+    .cartPage .primaryButton button {
+      background: #01549b !important;
+      margin: 5%; }
+  .cartPage .FinalSummarycart .ImageCard {
+    border-radius: 50%; }
+  .cartPage .TextFieldComponent {
+    width: 100% !important; }
+  .cartPage .datePicker input {
+    width: 100% !important;
+    cursor: pointer !important; }
+  .cartPage .redirectionPage {
+    position: relative; }
+    .cartPage .redirectionPage .checkIcon {
+      font-family: Material Icons;
+      font-style: normal;
+      color: #388e3c;
+      font-size: 45px; }
+    .cartPage .redirectionPage span {
+      position: absolute;
+      top: 24%; }
+  .cartPage .spinnerTag svg circle {
+    stroke: #01549b !important; }
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .step div div {
+    display: block !important;
+    width: auto !important; }
+  .noPadding {
+    padding: 0; }
+  .primaryButton button {
+    width: 100%; } }

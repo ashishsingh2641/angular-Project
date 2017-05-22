@@ -1,0 +1,70 @@
+@import '../../../_variable.scss';
+@import '../../../Icon.scss';
+
+.FilterComponent {
+	.filterText {
+		.filter {
+			font-family: 'Open Sans';
+  			font-size: 16px;
+  			font-weight: 600;
+  			line-height: 1.38;
+  			color: $black-two;
+  			margin-bottom: 1%;
+		}	
+	}
+	.clearAll {
+      font-family: 'Open Sans';
+  		font-size: 14px;
+  		color: $mid-green;
+  		font-weight: 600;
+	}
+	.customCheckbox {
+		margin: 3% 0;
+		position: relative;
+    	input {
+    		opacity: 0;
+    		z-index: -9999;
+    	}
+    	label {
+    		width: 16px;
+		  	height: 16px;
+		  	border-radius: 2px;
+		  	border: solid 1px $warm-grey-two;
+		  	position: absolute;
+		  	margin-bottom: 0px;
+    		bottom: 2px;
+    		left: 5%;
+    		cursor: pointer;
+    	}
+    	span {
+    		margin-left: 5%;
+    		color: $greyish-brown;
+            font-family: 'Open Sans';
+    		font-size: 14px; 
+    	}
+        .checkmark {
+             display:inline-block;
+                position: absolute;
+                left: 14px;
+                top: 7px;
+  
+              &:after{
+                /*Add another block-level blank space*/
+                content: '';
+                display: block;
+             
+                /*Make it a small rectangle so the border will create an L-shape*/
+                width: 6px;
+                height: 10px;
+             
+                /*Add a white border on the bottom and left, creating that 'L' */
+                border: solid #000;
+                border-width: 0 2px 2px 0;
+             
+                /*Rotate the L 45 degrees to turn it into a checkmark*/
+                transform: rotate(45deg);
+            }
+        }  
+	}
+}
+
